@@ -34,7 +34,8 @@ public class StockWatcher implements EntryPoint {
 
 	//change in StockerWatcher File.
 
-	//This change is too make the merge conflict. Try again. another oneasldkfj;lasdkjf;alskjdf;lk
+	//This change is too make the merge conflict. Try again. another oneasldkfj;lasdkjf;asdfasdfasdfasdfzcxvasdfalskjdf;lk
+	//asdfasdfasdfa
 
 	/** * Entry point method. */ 
 	public void onModuleLoad() { 
@@ -44,7 +45,7 @@ public class StockWatcher implements EntryPoint {
 		stocksFlexTable.setText(0, 2, "Change");  
 		stocksFlexTable.setText(0, 3, "Remove");
 		
-		// Add styles to elements in the stock list table.
+		// Add styles to elements in the.
 	    stocksFlexTable.getRowFormatter().addStyleName(0, "watchListHeader");
 	    stocksFlexTable.addStyleName("watchList");
 	    stocksFlexTable.getCellFormatter().addStyleName(0, 1, "watchListNumericColumn");
@@ -97,7 +98,7 @@ public class StockWatcher implements EntryPoint {
 
 	/**
 	 * Add stock to FlexTable. Executed when the user clicks the addStockButton or
-	 * presses enter in the newSymbolTextBox.
+	 * presses enter in the newSymbolTextBox
 	 */
 	private void addStock() {
 		final String symbol = newSymbolTextBox.getText().toUpperCase().trim();
