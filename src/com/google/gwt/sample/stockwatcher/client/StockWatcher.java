@@ -99,10 +99,13 @@ public class StockWatcher implements EntryPoint {
 	private void mergeConflict(){
 		//this is only to create mergeConflict
 	}
+	private void mergeConflict2(){
+		//this is another mergeConflict method
+	}
 
 	/**
 	 * Add stock to FlexTable. Executed when the user clicks the addStockButton or
-	 * presses enter in the newSymbolTextBox
+	 * presses enter in the newSymbolTextBox asdfkjlhz
 	 */
 	private void addStock() {
 		final String symbol = newSymbolTextBox.getText().toUpperCase().trim();
