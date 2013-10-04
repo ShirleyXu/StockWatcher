@@ -32,9 +32,12 @@ public class StockWatcher implements EntryPoint {
 	private Label lastUpdatedLabel = new Label();
 	private ArrayList<String> stocks = new ArrayList<String>();  
 
-	//change in StockerWatcher File. Change again
+	//change in StockerWatcher File. Change again and again.
 
-	//This change is too make the merge conflict. Try again. another oneasldkfj;lasdkjf;alskjdf;lk
+	// This is for creating merge conflict
+	public void practice(){
+	    System.out.println("merge conflic practice!");
+	}
 
 	/** * Entry point method. */ 
 	public void onModuleLoad() { 
@@ -52,12 +55,12 @@ public class StockWatcher implements EntryPoint {
 	    stocksFlexTable.getCellFormatter().addStyleName(0, 3, "watchListRemoveColumn");
 	    stocksFlexTable.setCellPadding(6);
 
-		// Assemble Add Stock panel. Modifed.
+		// Assemble Add Stock panel. Modifed again.
 		addPanel.add(newSymbolTextBox);
 		addPanel.add(addStockButton);
 		addPanel.addStyleName("addPanel");
 
-		// Assemble Main panel. Modified.
+		// Assemble Main panel. Modified again.
 		mainPanel.add(stocksFlexTable);
 		mainPanel.add(addPanel);
 		mainPanel.add(lastUpdatedLabel);
