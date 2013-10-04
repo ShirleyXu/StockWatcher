@@ -32,7 +32,7 @@ public class StockWatcher implements EntryPoint {
 	private Label lastUpdatedLabel = new Label();
 	private ArrayList<String> stocks = new ArrayList<String>();  
 
-	//change in StockerWatcher File.
+	//change in StockerWatcher File. Change again
 
 	//This change is too make the merge conflict
 
