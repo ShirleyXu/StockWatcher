@@ -34,7 +34,7 @@ public class StockWatcher implements EntryPoint {
 
 	/** * Entry point method. */ 
 	public void onModuleLoad() { 
-		// Create table for stock data.  
+		// Create table for stock data for StockWatcher class.
 		stocksFlexTable.setText(0, 0, "Symbol");  
 		stocksFlexTable.setText(0, 1, "Price");  
 		stocksFlexTable.setText(0, 2, "Change");  
@@ -48,12 +48,12 @@ public class StockWatcher implements EntryPoint {
 	    stocksFlexTable.getCellFormatter().addStyleName(0, 3, "watchListRemoveColumn");
 	    stocksFlexTable.setCellPadding(6);
 
-		// Assemble Add Stock panel.
+		// Assemble Add Stock panel. Modifed.
 		addPanel.add(newSymbolTextBox);
 		addPanel.add(addStockButton);
 		addPanel.addStyleName("addPanel");
 
-		// Assemble Main panel.
+		// Assemble Main panel. Modified.
 		mainPanel.add(stocksFlexTable);
 		mainPanel.add(addPanel);
 		mainPanel.add(lastUpdatedLabel);
