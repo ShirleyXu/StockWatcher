@@ -34,7 +34,7 @@ public class StockWatcher implements EntryPoint {
 
 	//change in StockerWatcher File. Change again
 
-	//This change is too make the merge conflict
+	//This change is too make the merge conflict. Try again. another oneasldkfj;lasdkjf;alskjdf;lk
 
 	/** * Entry point method. */ 
 	public void onModuleLoad() { 
