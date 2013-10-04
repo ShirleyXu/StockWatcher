@@ -32,7 +32,7 @@ public class StockWatcher implements EntryPoint {
 	private Label lastUpdatedLabel = new Label();
 	private ArrayList<String> stocks = new ArrayList<String>();  
 
-	//change in StockerWatcher File.
+	//change in Stadsflk
 
 	//This change is too make the merge conflict. Try again. another oneasldkfj;lasdkjf;asdfasdfasdfasdfzcxvasdfalskjdf;lk
 	//asdfasdfasdfa
@@ -94,6 +94,10 @@ public class StockWatcher implements EntryPoint {
 			}
 		});
 
+	}
+	//asdfajsdfkjzxv
+	private void mergeConflict(){
+		//this is only to create mergeConflict
 	}
 
 	/**
