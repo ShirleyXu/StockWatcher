@@ -34,6 +34,8 @@ public class StockWatcher implements EntryPoint {
 
 	//change in StockerWatcher File.
 
+	//This change is too make the merge conflict
+
 	/** * Entry point method. */ 
 	public void onModuleLoad() { 
 		// Create table for stock data.  
