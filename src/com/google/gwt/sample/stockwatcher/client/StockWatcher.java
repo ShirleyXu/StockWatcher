@@ -32,6 +32,8 @@ public class StockWatcher implements EntryPoint {
 	private Label lastUpdatedLabel = new Label();
 	private ArrayList<String> stocks = new ArrayList<String>();  
 
+	//change in StockerWatcher File.
+
 	/** * Entry point method. */ 
 	public void onModuleLoad() { 
 		// Create table for stock data.  
